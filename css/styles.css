@@ -5,10 +5,35 @@ h1 {
   margin:0;
 }
 
+h2 {
+  font-size:20px;
+  font-weight: normal;
+  color:tomato;
+  margin:0;
+}
+
 p {
   margin:0;
 }
 
 div {
   margin-bottom: 50px;
+}
+
+th {
+  font-weight: normal;
+  width:100px;
+}
+
+td {
+  width:100px;
+  border: 1px solid black;
+}
+
+td < div {
+  height: 100px;
+}
+
+table {
+  /* border: 1px solid black; */
 }
