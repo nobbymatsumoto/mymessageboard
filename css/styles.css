@@ -37,3 +37,11 @@ td < div {
 table {
   /* border: 1px solid black; */
 }
+
+.very_busy {
+  color:blue;
+}
+
+.busy {
+  color:rgb(13, 161, 13);
+}
