@@ -1,3 +1,16 @@
+header {
+  position:fixed;
+  background-color: white;
+}
+
+.calendar {
+  width: 200px;
+  position:absolute;
+  left:200px;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+
 h1 {
   font-size: 20px;
   font-weight: normal;
@@ -16,8 +29,10 @@ p {
   margin:0;
 }
 
-div {
+body < div {
   margin-bottom: 50px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 th {
@@ -27,7 +42,11 @@ th {
 
 td {
   width:100px;
-  border: 1px solid black;
+  /* border: 1px solid grey; */
+  background-color:rgb(194, 230, 245);
+  margin: 0;
+  padding:0;
+  vertical-align: top;
 }
 
 td < div {
@@ -39,9 +58,29 @@ table {
 }
 
 .very_busy {
-  color:blue;
+  color:white;
+  background-color: rgb(116, 116, 240);
 }
 
 .busy {
-  color:rgb(13, 161, 13);
+  background-color:rgb(13, 161, 13);
+}
+
+.sec1 {
+  border: 1px solid black;
+}
+
+.sec2 {
+  border: 1px solid black;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  align-content: flex-end;
+}
+
+.bottom {
+  width:100px;
+  height:1000px;
 }
