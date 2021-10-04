@@ -18,6 +18,13 @@ header {
   /* border: 1px solid black; */
 }
 
+.events {
+  width: 100px;
+  position: absolute;
+  left:350px;
+  background-color: white;
+}
+
 h1 {
   font-size: 20px;
   font-weight: normal;
