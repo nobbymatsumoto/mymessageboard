@@ -91,3 +91,13 @@ table {
   width:100px;
   height:1000px;
 }
+
+img {
+  width:300px;
+}
+
+@media (max-width:600px) {
+  img {
+    width:100%;
+  }
+}
