@@ -1,0 +1,8 @@
+table thead th {
+  font-weight: normal;
+  background-color: rgba(155, 140, 140, 0.342);
+}
+
+table tbody td {
+  background-color: rgba(118, 155, 155, 0.445);
+}

@@ -3,6 +3,13 @@ header {
   background-color: white;
 }
 
+.belongings {
+  width: 100px;
+  position:absolute;
+  left:100px;
+  background-color: white;
+}
+
 .calendar {
   width: 200px;
   position:absolute;
