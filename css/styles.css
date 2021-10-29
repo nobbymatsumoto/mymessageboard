@@ -68,7 +68,7 @@ td < div {
 }
 
 table {
-  /* border: 1px solid black; */
+  margin-bottom: 50px;
 }
 
 .very_busy {
@@ -78,6 +78,10 @@ table {
 
 .busy {
   background-color:rgb(13, 161, 13);
+}
+
+.close {
+  background-color:silver;
 }
 
 .sec1 {
