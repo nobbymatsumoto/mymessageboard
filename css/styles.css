@@ -4,16 +4,16 @@ header {
 }
 
 .belongings {
-  width: 100px;
+  width: 50px;
   position:absolute;
-  left:100px;
+  left:50px;
   background-color: white;
 }
 
 .calendar {
   width: 200px;
   position:absolute;
-  left:200px;
+  left:120px;
   background-color: white;
   /* border: 1px solid black; */
 }
@@ -21,13 +21,13 @@ header {
 .events_1 {
   width: 100px;
   position: absolute;
-  left:350px;
+  left:270px;
   background-color: white;
 }
 .events_2 {
   width: 100px;
   position: absolute;
-  left:430px;
+  left:350px;
   background-color: white;
 }
 
