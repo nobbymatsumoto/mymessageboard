@@ -13,7 +13,7 @@ header {
 .calendar {
   width: 200px;
   position:absolute;
-  left:120px;
+  left:115px;
   background-color: white;
   /* border: 1px solid black; */
 }
@@ -21,13 +21,13 @@ header {
 .events_1 {
   width: 100px;
   position: absolute;
-  left:270px;
+  left:260px;
   background-color: white;
 }
 .events_2 {
   width: 100px;
   position: absolute;
-  left:350px;
+  left:335px;
   background-color: white;
 }
 
