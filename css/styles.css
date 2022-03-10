@@ -18,16 +18,22 @@ header {
   /* border: 1px solid black; */
 }
 
-.events_1 {
+.events_1_1 {
   width: 100px;
   position: absolute;
   left:260px;
   background-color: white;
 }
-.events_2 {
+.events_1_2 {
   width: 100px;
   position: absolute;
   left:335px;
+  background-color: white;
+}
+.events_2 {
+  width: 100px;
+  position: absolute;
+  left:410px;
   background-color: white;
 }
 
