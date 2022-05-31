@@ -123,6 +123,10 @@ img {
   background-color: aquamarine;
 }
 
+.pool {
+  background-color: tomato;
+}
+
 @media (max-width:600px) {
   img {
     width:100%;
