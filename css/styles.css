@@ -1,3 +1,11 @@
+:root{
+  --color1:rgb(116, 116, 240);
+}
+
+.bg-1 {
+  background-color:var(--color1);
+}
+
 header {
   position:fixed;
   background-color: white;
@@ -75,13 +83,9 @@ td {
   vertical-align: top;
 }
 
-td > div {
-  height: 100px;
-}
 
-table {
-  margin-bottom: 50px;
-}
+
+
 
 .very_busy {
   color:white;
@@ -127,6 +131,10 @@ img {
   background-color: tomato;
 }
 
+p {
+  margin-bottom:.5rem!important;
+}
+
 @media (max-width:600px) {
   img {
     width:100%;
@@ -135,4 +143,14 @@ img {
 
 .dis_none {
   display: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display:none;
+}
+
+.scrollbar-none > div {
+  scroll-snap-align:start;
+  flex-shrink:0;
+  max-width:100%;
 }
